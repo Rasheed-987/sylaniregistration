@@ -1,0 +1,76 @@
+ #new{
+ display: block;
+ margin: 0 auto;
+background-image: url('assets/WhatsApp\ Image\ 2023-11-01\ at\ 5.39.18\ PM.jpeg');
+height: 45vh;
+width: 80vw;
+position: relative;
+
+}
+body,html{
+    font-family: 'Signika', sans-serif;
+}
+.student{
+    color: #0d6efd;   
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(250, 245, 245, 0.900); /* Overlay background with opacity */
+    pointer-events: none; 
+}
+.bg{
+    background-color: #FFFBE6;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a {
+    pointer-events: auto;
+}
+.custom-img{
+    background-color: rgb(0, 128, 255,0.8); 
+
+}
+.id{
+color: #0d6efd;
+    }
+.custom-bg-color {
+    background-color: rgb(0, 128, 255,0.8); 
+}
+.custom-heading{
+    pointer-events: auto;
+}
+button{
+    pointer-events: auto;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+ 
+  .btn-new{
+    border: 2px solid gray;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding: 38px 20px;
+    margin-top: 34px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+   
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+ 
