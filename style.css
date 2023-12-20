@@ -73,4 +73,10 @@ button{
     top: 0;
     opacity: 0;
   }
- 
+  .navbar-nav {
+    display: flex;
+    gap: 10px; /* Adjust the value as needed */
+}
+.navbar-nav li a{
+    color: black;
+}
