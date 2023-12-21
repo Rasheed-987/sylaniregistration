@@ -10,9 +10,7 @@ position: relative;
 body,html{
     font-family: 'Signika', sans-serif;
 }
-.student{
-    color: #0d6efd;   
-}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -75,8 +73,8 @@ button{
   }
   .navbar-nav {
     display: flex;
-    gap: 10px; /* Adjust the value as needed */
+    gap: 7px; /* Adjust the value as needed */
 }
-.navbar-nav li a{
-    color: black;
+.navbar-nav li a:hover{
+    color: rgba(0, 0, 0, 1);
 }
